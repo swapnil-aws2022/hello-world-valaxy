@@ -6,4 +6,4 @@
 #COPY ./webapp.war /usr/local/tomcat/webapps
 
 FROM tomcat:latest
-COPY target/*.war /usr/local/tomcat/webapps/
+COPY ./*.war /usr/local/tomcat/webapps/
